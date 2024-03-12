@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
 
         let existingData = JSON.parse(localStorage.getItem('employeeData'));
-
+        
         
         if (!Array.isArray(existingData) || existingData === null) {
             existingData = []; 
